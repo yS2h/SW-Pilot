@@ -7,6 +7,6 @@ public class HelloBiodome01 {
             return;
         }
         String name = String.join(" ", args);
-        System.out.println(name + "님 안녕하세요!");
+        System.out.println("\"" + name + "\"님 안녕하세요!");
     }
 }
