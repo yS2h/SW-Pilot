@@ -12,8 +12,12 @@ public class HelloBiodome09 {
                 for (int j = 0; j < n - i; j++) {
                     System.out.print(" ");
                 }
+                int mid = 2 * (i - 1) / 2;
                 for (int j = 0; j < (2 * i - 1); j++) {
-                    System.out.print("*");
+                    if (j == mid)
+                        System.out.print("&");
+                    else
+                        System.out.print("*");
                 }
                 System.out.println();
             }
