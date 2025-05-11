@@ -7,6 +7,7 @@ public class HelloBiodome05 {
         int h = answer[1];
 
         three(g, h);
+        four(g, h);
     }
 
     public static int[] find() {
@@ -30,6 +31,11 @@ public class HelloBiodome05 {
 
     public static void three(int g, int h) {
         int answer = (h * h + g) * (h << h) + (g << g);
+        System.out.println(answer);
+    }
+
+    public static void four(int g, int h) {
+        int answer = (h | g) - (h >> g) * (h << h) + (g << g);
         System.out.println(answer);
     }
 }
