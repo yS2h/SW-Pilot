@@ -15,7 +15,8 @@ public class HelloBiodome03 {
             temp = Double.parseDouble(args[0]);
             hum = Double.parseDouble(args[1]);
             oxy = Double.parseDouble(args[2]);
-            System.out.println("H = " + H(hum, temp, oxy));
+            System.out.println("생명지수 H = " + H(hum, temp, oxy));
+            System.out.printf("생명지수 H = %.2f", H(hum, temp, oxy));
         } catch (NumberFormatException e) {
             System.out.println("입력된 값이 올바르지 않습니다. [온도][습도][산소농도] 순서 대로 숫자 값을 입력해주세요");
         }
