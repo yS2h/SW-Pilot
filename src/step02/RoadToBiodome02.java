@@ -8,6 +8,7 @@ public class RoadToBiodome02 {
 
         if (input.isEmpty()) {
             System.out.println("입력된 메시지가 올바르지 않습니다. 다시 한번 확인해주세요.");
+            return;
         }
 
         Stack s = new Stack();
@@ -17,7 +18,7 @@ public class RoadToBiodome02 {
         }
 
         while (!s.isEmpty()) {
-            System.out.printf("%c", s.pop());
+            System.out.print(s.pop());
         }
     }
 
