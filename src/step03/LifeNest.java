@@ -18,11 +18,12 @@ public class LifeNest {
     }
 
     public void displayAll() {
-        System.out.println("전체 동식물 목록 출력:");
+        System.out.println("\n전체 동식물 목록 출력:");
         for (int i = 0; i < organismList.size(); i++) {
             System.out.print(i + 1 + ". ");
             organismList.get(i).displayInfo();
         }
+        System.out.println();
     }
 
 }

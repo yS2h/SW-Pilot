@@ -15,6 +15,14 @@ public class Organism {
         return name;
     }
 
+    public String getSpecies() {
+        return species;
+    }
+
+    public String getHabitat() {
+        return habitat;
+    }
+
     public void setHabitat(String habitat) {
         this.habitat = habitat;
         System.out.println("[LifeNest] " + name + " 서식지가 변경되었습니다.");
