@@ -8,12 +8,12 @@ public class LifeNest {
 
     public void addOrganism(Organism organism) {
         organismList.add(organism);
-        System.out.println("[LifeNest] " + organism.name + "이(가) 추가되었습니다.");
+        System.out.println("[LifeNest] " + organism.getName() + "이(가) 추가되었습니다.");
     }
 
     public void removeOrganism(Organism organism) {
-        if (organismList.removeIf(o -> o.name.equals(organism.name))) {
-            System.out.println("[LifeNest] " + organism.name + "이(가) 추가되었습니다.");
+        if (organismList.removeIf(o -> o.getName().equals(organism.getName()))) {
+            System.out.println("[LifeNest] " + organism.getName() + "이(가) 삭제되었습니다.");
         }
     }
 
