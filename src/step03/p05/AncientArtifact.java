@@ -1,4 +1,4 @@
-package step03;
+package step03.p05;
 
 public abstract class AncientArtifact {
     private final String name;

@@ -1,4 +1,4 @@
-package step03;
+package step03.p05;
 
 public class WindAmulet extends AncientArtifact implements WeatherController {
     public WindAmulet() {
