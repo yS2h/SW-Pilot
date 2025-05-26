@@ -1,4 +1,4 @@
-package step03;
+package step03.p03;
 
 public class Plant extends Organism {
     private String season;

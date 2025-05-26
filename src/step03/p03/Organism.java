@@ -1,4 +1,4 @@
-package step03;
+package step03.p03;
 
 public class Organism {
     private String name;
