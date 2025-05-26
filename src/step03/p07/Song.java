@@ -1,4 +1,4 @@
-package step03;
+package step03.p07;
 
 public abstract class Song {
     private String title;

@@ -1,6 +1,7 @@
-package step03;
+package step03.p07;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MusicLibrary {
     ArrayList<Song> songList = new ArrayList<>();
@@ -43,5 +44,14 @@ public class MusicLibrary {
         }
         System.out.println("\"" + title + "\" 노래가 존재하지 않습니다.");
         return null;
+    }
+
+
+    public void randomPlay() {
+        Collections.shuffle(songList);
+        System.out.println("랜덤 재생 플리!!");
+        for (Song s : songList) {
+            System.out.println(" - " + s.getInfo());
+        }
     }
 }

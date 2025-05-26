@@ -1,4 +1,4 @@
-package step03;
+package step03.p07;
 
 public class Player {
     MusicLibrary library;

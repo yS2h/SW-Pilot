@@ -1,4 +1,4 @@
-package step03;
+package step03.p07;
 
 public class ManagerSong extends Song {
     private String genre;

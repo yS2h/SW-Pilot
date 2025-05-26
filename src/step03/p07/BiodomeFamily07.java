@@ -1,4 +1,4 @@
-package step03;
+package step03.p07;
 
 public class BiodomeFamily07 {
     public static void main(String[] args) {
@@ -22,5 +22,7 @@ public class BiodomeFamily07 {
         p.play(b);
         ml.removeSong("시간의 수평선");
         ml.searchByTitle("시간의 수평선");
+
+        ml.randomPlay();
     }
 }
