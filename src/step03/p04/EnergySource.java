@@ -1,4 +1,4 @@
-package step03;
+package step03.p04;
 
 public abstract class EnergySource {
     private final String sourceName;
@@ -18,6 +18,10 @@ public abstract class EnergySource {
     }
 
     public void useEnergy(int amount) {
+        if (amount > energyAmount) {
+            System.out.println("에너지가 부족해 " + sourceName + " " + amount + "을 사용할 수 없습니다.");
+            return;
+        }
         energyAmount -= amount;
         System.out.println(sourceName + " 에너지를 " + amount + " 사용했습니다.");
     }

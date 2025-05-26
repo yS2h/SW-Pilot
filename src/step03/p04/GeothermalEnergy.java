@@ -1,4 +1,4 @@
-package step03;
+package step03.p04;
 
 public class GeothermalEnergy extends EnergySource {
     public GeothermalEnergy() {

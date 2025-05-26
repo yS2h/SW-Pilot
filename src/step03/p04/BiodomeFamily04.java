@@ -1,4 +1,4 @@
-package step03;
+package step03.p04;
 
 public class BiodomeFamily04 {
     public static void main(String[] args) {
@@ -12,14 +12,14 @@ public class BiodomeFamily04 {
         w.produceEnergy(12);
         g.produceEnergy(4);
 
-        s.useEnergy(30);
+        s.useEnergy(60);
         w.useEnergy(30);
         g.useEnergy(30);
 
         m.addSource(s);
         m.addSource(w);
         m.addSource(g);
-        
+
         System.out.println("남은 에너지: " + m.sumTotalEnergy());
     }
 }

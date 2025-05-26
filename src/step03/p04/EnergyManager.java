@@ -1,4 +1,4 @@
-package step03;
+package step03.p04;
 
 import java.util.ArrayList;
 import java.util.List;

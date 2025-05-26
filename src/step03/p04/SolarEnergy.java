@@ -1,4 +1,4 @@
-package step03;
+package step03.p04;
 
 public class SolarEnergy extends EnergySource {
     public SolarEnergy() {
