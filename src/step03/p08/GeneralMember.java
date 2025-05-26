@@ -1,4 +1,4 @@
-package step03;
+package step03.p08;
 
 import java.time.LocalDateTime;
 
@@ -12,7 +12,7 @@ public class GeneralMember extends Member implements SessionOpener {
         super(name, date);
         System.out.println(name + "이 일반 멤버로 가입되었습니다.");
     }
-    
+
     @Override
     public Session openSession(LocalDateTime date, String place) {
         Session session = new Session(date, place, this, true);
