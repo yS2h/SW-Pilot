@@ -11,7 +11,7 @@ public class EnvironmentInfo {
     private String place;
 
     public EnvironmentInfo(double temperature, double humidity, double oxygen, String place) {
-        time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        time = new SimpleDateFormat("yyyy-MM-dd HH:mm").format(new Date());
         this.temperature = temperature;
         this.humidity = humidity;
         this.oxygen = oxygen;
